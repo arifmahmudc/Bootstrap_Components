@@ -1,0 +1,36 @@
+.alert_section, .breadcrumb_section, .card_section, .form_section{
+	padding: 50px 0;
+	background-color: #fff5f5;
+}
+.heading{
+	text-align: center;
+}
+h1{
+	color: tomato;
+	text-align: center;
+}
+h2{
+	margin: 25px 0 5px 0;
+	font-size: 30px;
+	color:tomato;
+}
+.alert-custom{
+	background-color: tomato;
+}
+.button_section{
+	padding: 50px 0;
+	background-color: #AAEAE7;
+}
+.form_section{
+	padding: 50px 0;
+	background-color: #EAAACF;
+}
+
+.badge_section{
+	padding: 50px 0;
+	background-color: #F0E5B6;
+}
+.carousel_section{
+	padding: 50px 0;
+	background-color: #E4FFF6;
+}

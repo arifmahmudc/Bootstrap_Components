@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!--  Font awesome files links -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!--  CSS files links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap|Componant</title>
+  </head>
+  <body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="index.html">Arif Mahmud</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page3.html">Page 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page2.html">Page 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page4.html">Page 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page1.html">Bootstrap form</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- nav bar end -->
+    <!-- Form section start  -->
+    <section class="form_section">
+      <div class="container">
+        <h2 class="text-center mb-5">Bootstrap form:</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="first_name">First name</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="Enter your first name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please enter your first name.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="last_name">Last name</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Enter your last name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please enter your last name.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Additional information -->
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="city_01">City</label>
+                    <input type="text" class="form-control" id="city_01" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="state_01">District</label>
+                    <select class="custom-select" id="state_01" required>
+                      <option selected disabled value="">Choose...</option>
+                      <option>Dhaka</option>
+                      <option>Chittagong</option>
+                      <option>Rangpur</option>
+                      <option>Rajshahi</option>
+                      <option>Khulna</option>
+                      <option>Sylhet</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid District.
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="zip_01">Post code</label>
+                    <input type="text" class="form-control" id="zip_01" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid post code.
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Text area setion -->
+                <div class="mb-3">
+                  <label for="text_area01">Textarea</label>
+                  <textarea class="form-control" id="text_area01" placeholder="Required example textarea" required></textarea>
+                  <div class="invalid-feedback">
+                    Please enter a message in the textarea.
+                  </div>
+                  <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+
+              <!-- Gender section -->
+                <div class="mb-3">
+                 <p>Gender</p>
+                  <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline1">Male</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2">Female</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2">Other</label>
+                  </div>
+                </div>
+                
+                <!-- Selecto section -->
+                <div class="">
+                  <div class="form-group">
+                    <label for="photo_01">Select your photo</label>
+                    <input type="file" class="form-control-file" id="photo_01">
+                  </div>
+                </div>
+                <div class="">
+                  <div class="form-group">
+                    <label for="nid_01">Select your NID</label>
+                    <input type="file" class="form-control-file" id="nid_01">
+                  </div>
+                </div>
+
+
+                <div>
+                  <div class="form-group row">
+                    <label for="email01" class="col-sm-2 col-form-label">Your Email</label>
+                    <div class="col-sm-10">
+                      <input type="Email" class="form-control" id="email01">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="password01" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="password01">
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Submit section -->
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Form section end  -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+      <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+
+  </body>
+</html>
